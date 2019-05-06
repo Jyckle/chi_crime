@@ -1,10 +1,7 @@
-all: feature_list.csv node_loc_list.csv fixed_data.csv
+all: node_loc_list.csv fixed_data.csv
 
 clean: 
 	rm temp_*.txt
-
-feature_list.csv: sensors.csv
-	cat sensors.csv | cut -d "," -f  3,4 | sed 's/,/_/g' >$@
 
 node_loc_list.csv: nodes.csv
 	cat nodes.csv | sed 's/".*,.*"//g'| cut -f 1,5,6 -d ',' > $@
