@@ -1,3 +1,6 @@
 data.csv filter=lfs diff=lfs merge=lfs -text
 new_data.csv filter=lfs diff=lfs merge=lfs -text
 fixed_data.csv filter=lfs diff=lfs merge=lfs -text
+AoT_data/data.csv filter=lfs diff=lfs merge=lfs -text
+AoT_data/fixed_data.csv filter=lfs diff=lfs merge=lfs -text
+AoT_data/new_data.csv filter=lfs diff=lfs merge=lfs -text
