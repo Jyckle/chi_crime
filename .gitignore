@@ -1,0 +1,6 @@
+*.ipynb_checkpoints
+env/
+temp*
+AoT_data/data.csv
+AoT_data/fixed_data.csv
+AoT_data/new_data.csv
